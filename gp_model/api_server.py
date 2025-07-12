@@ -40,15 +40,6 @@ holistic = mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confi
 session_buffers: Dict[str, deque] = {}
 SEQUENCE_LENGTH = 30
 
-# Sentence and state tracking
-TARGET_SENTENCE = [
-    "السلام عليكم",
-    "انا",
-    "عاوز",
-    "شهاده ميلاد",
-    "يوم",
-    "الاثنين"
-]
 
 user_states = {}  # session_id: {"current_idx": int, "completed": bool, "last_time": float}
 
