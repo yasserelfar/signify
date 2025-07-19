@@ -1,3 +1,4 @@
+
 # SIGNIFY
 
 *Empowering Communication Through Intelligent Sign Language Solutions*
@@ -49,7 +50,7 @@ Signify is an all-in-one developer toolset designed to facilitate the creation o
 
 This project requires the following dependencies:
 
-- **Programming Language**: JavaScript, Python
+- **Programming Language**: JavaScript, Python  
 - **Package Manager**: npm, pip
 
 ---
@@ -61,3 +62,71 @@ Build Signify from the source and install dependencies:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yasserelfar/signify
+
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd signify
+   ```
+
+3. **Install the dependencies**:
+
+#### Using `npm`:
+
+```bash
+npm install
+```
+
+#### Using `pip`:
+
+```bash
+pip install -r gp_model/requirements.txt
+```
+
+---
+
+## Usage
+
+Run the project with:
+
+#### Using `npm`:
+
+```bash
+npm start
+```
+
+#### Using `pip`:
+
+```bash
+python <entrypoint>
+```
+
+---
+
+## Testing
+
+Signify uses the `test_framework` test framework. Run the test suite with:
+
+#### Using `npm`:
+
+```bash
+npm test
+```
+
+#### Using `pip`:
+
+```bash
+pytest
+```
+
+---
+
+🔙 **Return**
+
+```
+
+---
+
+ل
+
